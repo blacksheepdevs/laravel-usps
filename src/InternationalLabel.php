@@ -9,7 +9,7 @@
  * @author Vincent Gabriel
  */
 
-namespace Johnpaulmedina\Usps;
+namespace Blacksheepdevs\Usps;
 
 class InternationalLabel extends USPSBase
 {

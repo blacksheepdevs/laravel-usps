@@ -8,7 +8,7 @@
  * @author Vincent Gabriel
  */
 
-namespace Johnpaulmedina\Usps;
+namespace Blacksheepdevs\Usps;
 
 /**
  * USPS Zip code lookup by city/state

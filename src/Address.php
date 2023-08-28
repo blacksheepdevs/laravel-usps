@@ -11,7 +11,7 @@
 
  */
 
-namespace Johnpaulmedina\Usps;
+namespace Blacksheepdevs\Usps;
 
 class Address
 {

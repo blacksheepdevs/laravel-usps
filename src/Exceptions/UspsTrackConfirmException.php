@@ -6,7 +6,7 @@
  * Time: 2:54 PM
  */
 
-namespace Johnpaulmedina\Usps\Exceptions;
+namespace Blacksheepdevs\Usps\Exceptions;
 
 use Throwable;
 

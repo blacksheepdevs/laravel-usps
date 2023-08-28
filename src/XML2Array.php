@@ -10,7 +10,7 @@
  */
 
 
-namespace Johnpaulmedina\Usps;
+namespace Blacksheepdevs\Usps;
 
 /**
  * XML2Array: A class to convert XML to array in PHP

@@ -20,12 +20,12 @@ To wire this up in your Laravel 5.4 project you need to add the service provider
 Open `config/app.php`, and add a new item to the providers array.
 
 ```php
-Johnpaulmedina\Usps\UspsServiceProvider::class,
+Blacksheepdevs\Usps\UspsServiceProvider::class,
 ```
 Then you must also specify the alias in `config/app.php`. Add a new item to the Aliases array.
 
 ```php
-'Usps' => Johnpaulmedina\Usps\Facades\Usps::class,
+'Usps' => Blacksheepdevs\Usps\Facades\Usps::class,
 ```
 This will allow integration by adding the Facade `Use Usps;` 
 
@@ -48,7 +48,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests;
 use Illuminate\Support\Facades\Request;
-use Johnpaulmedina\Usps;
+use Blacksheepdevs\Usps;
 
 class USPSController extends Controller
 {

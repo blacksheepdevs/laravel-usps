@@ -8,7 +8,7 @@
  * @author Vincent Gabriel
  */
 
-namespace Johnpaulmedina\Usps;
+namespace Blacksheepdevs\Usps;
 
 /**
  * Array2XML: A class to convert array in PHP to XML

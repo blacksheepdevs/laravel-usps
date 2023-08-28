@@ -9,7 +9,7 @@
  * @author Vincent Gabriel
  */
 
-namespace Johnpaulmedina\Usps;
+namespace Blacksheepdevs\Usps;
 
 class OpenDistributeLabel extends USPSBase
 {

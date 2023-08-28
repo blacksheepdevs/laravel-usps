@@ -8,7 +8,7 @@
  * @author Vincent Gabriel
  */
 
-namespace Johnpaulmedina\Usps;
+namespace Blacksheepdevs\Usps;
 
 class FirstClassServiceStandards extends USPSBase
 {

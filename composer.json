@@ -1,5 +1,5 @@
 {
-    "name": "johnpaulmedina/laravel-usps",
+    "name": "blacksheepdevs/laravel-usps",
     "description": "USPS API for Laravel 10",
     "type": "library",
     "keywords": [
@@ -9,6 +9,10 @@
         "laravel usps"
     ],
     "authors": [
+        {
+            "name": "Cory DeMille",
+            "email": "cory@blacksheep.dev"
+        },
         {
             "name": "John Paul Medina",
             "email": "jp@leadtrust.io"
@@ -26,16 +30,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Johnpaulmedina\\Usps\\": "src/"
+            "Blacksheepdevs\\Usps\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Johnpaulmedina\\Usps\\UspsServiceProvider"
+                "Blacksheepdevs\\Usps\\UspsServiceProvider"
             ],
             "aliases": {
-                "Usps": "Johnpaulmedina\\Usps\\Facades\\Usps"
+                "Usps": "Blacksheepdevs\\Usps\\Facades\\Usps"
             }
         }
     },

@@ -130,13 +130,15 @@ class Usps {
         $val1 = $verify->lookup();
         $val2 = $verify->getArrayResponse();
 
+        var_dump($val2);
+
         // var_dump($verify->isError());
 
         // See if it was successful
-        if ($verify->isSuccess()) {
-            return ['address' => $val2['AddressValidateResponse']['Address']];
-        } else {
-            return ['error' => $verify->getErrorMessage()];
-        }
+//        if ($verify->isSuccess()) {
+//            return ['address' => $val2['AddressValidateResponse']['Address']];
+//        } else {
+//            return ['error' => $verify->getErrorMessage()];
+//        }
     }
 }

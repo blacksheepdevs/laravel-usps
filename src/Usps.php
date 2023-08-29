@@ -114,11 +114,7 @@ class Usps {
             
         
     }
-
-    /**
-     * @param $request
-     * @return array
-     */
+    
     public function cityStateLookup($request){
         $verify = new CityStateLookup($this->config['username']);
         $verify->addZipCode((array_key_exists('Zip', $request) ? $request['Zip'] : null ));

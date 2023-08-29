@@ -12,7 +12,7 @@
 
 namespace Blacksheepdevs\Usps;
 
-use Johnpaulmedina\Usps\Exceptions\UspsTrackConfirmException;
+use Blacksheepdevs\Usps\Exceptions\UspsTrackConfirmException;
 
 class Usps {
 

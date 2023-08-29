@@ -22,7 +22,7 @@
             "link": "https://github.com/VinceG"
         }
     ],
-    "homepage":"https://github.com/johnpaulmedina/laravel-usps/",
+    "homepage":"https://github.com/blacksheepdevs/laravel-usps/",
     "license": "MIT",
     "require": {
         "php": "^8.1",
